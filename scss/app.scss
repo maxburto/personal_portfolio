@@ -40,3 +40,82 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 "foundation/components/visibility";
+
+// Hero section tile background
+.hero {
+	position: relative;
+	overflow: hidden;
+	
+	:before {
+		display: block;
+	    content: "";
+	    position: absolute;
+	    width: 80em;
+	    height: 80em;
+		top: -20em;
+		left: -10em;
+	    z-index: -1;
+		background: url(../assets/background/images/bg-tile-db.svg);
+		background-color: #344D5C;
+	    -webkit-transform: rotate(-20deg);
+	    -moz-transform: rotate(-20deg);
+	    -ms-transform: rotate(-20deg);
+	    -o-transform: rotate(-20deg);
+	    transform: rotate(-20deg);
+	}
+	
+	.columns {
+		height: 571px;
+	}
+}
+
+// Flexbox
+.flexbox-hv {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -webkit-flexbox;
+	display: -ms-flexbox;
+	display: flexbox;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-webkit-flex-align: center;
+	-ms-flex-align: center;
+	flex-align: center;
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+	-webkit-flex-pack: center;
+	-ms-flex-pack: center;
+	flex-pack: center;
+}
+
+// Large vertical logo and type
+.logo {
+	
+}
+.logo a {
+	display: block;
+	width: 100%;
+}
+.logo a:link    {color:#ffffff; background-color:transparent; text-decoration:none}
+.logo a:visited {color:#ffffff; background-color:transparent; text-decoration:none}
+.logo a:hover   {color:#ffffff; background-color:transparent; text-decoration:none}
+.logo a:active  {color:#ffffff; background-color:transparent; text-decoration:none}
+.logo img {
+	width: 100%;
+}
+.logo figcaption {
+	font-size: 1.70rem;
+	text-align: right;
+	text-transform: lowercase;
+	letter-spacing: .02rem;
+	line-height: 1.5rem;
+}
+.vertical-logo {
+	width: 6rem;
+}
+figure.logo {
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+}

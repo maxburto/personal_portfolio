@@ -3,26 +3,37 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation</title>
+    <title>personal portfolio</title>
     <link rel="stylesheet" href="stylesheets/app.css" />
     <script src="bower_components/modernizr/modernizr.js"></script>	
   </head>
   <body>
 	  
-	<div data-interchange="[../assets/html/interchange/icon-bar.html, (small)], [../assets/html/interchange/top-bar.html, (medium)]">
+	<section data-interchange="[../assets/html/interchange/icon-bar.html, (small)], [../assets/html/interchange/top-bar.html, (medium)]">
 	  <div data-alert class="alert-box secondary radius">
 	    This is the default content.
 	    <a href="#" class="close">&times;</a>
 	  </div>
-	</div>
+	</section>
+	
+	<header class="row hero">
+		<div class="large-14 columns flexbox-hv">
+			<figure class="logo vertical-logo">
+				<a href="/">
+					<img src="../assets/ui/images/logo.svg" alt="Maxwell Burton"> 
+					<figcaption><span class="top-text">Maxwell</span><br /><span class="bottom-text">Burton</span></figcaption>
+				</a>
+			</figure>
+		</div>
+	</header>
 	  
-    <div class="row">
+    <section class="row">
       <div class="large-12 columns">
         <h1>Welcome to Foundation</h1>
       </div>
-    </div>
+    </section>
     
-    <div class="row">
+    <section class="row">
       <div class="large-12 columns">
         <div class="panel">
           <h3>We&rsquo;re stoked you want to try Foundation! </h3>
@@ -41,9 +52,9 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="row">
+    <section class="row">
       <div class="large-8 medium-8 columns">
         <h5>Here&rsquo;s your basic grid:</h5>
         <!-- Grid Example -->
@@ -162,7 +173,7 @@
           <a href="http://foundation.zurb.com/docs/" class="small button">Go to Foundation Docs</a>          
         </div>
       </div>
-    </div>
+    </section>
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
