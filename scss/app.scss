@@ -41,8 +41,27 @@
 //   "foundation/components/offcanvas",
 "foundation/components/visibility";
 
+// Colors
+*[role="research"] {
+	background: $research-color;
+}
+*[role="standards"] {
+	background: $standards-color;
+}
+*[role="intuition"] {
+	background: $intuition-color;
+}
+*[role="experimentation"] {
+	background: $experimentation-color;
+}
+
+// Typography
+.color-bg * {
+	color: $white;
+}
+
 // Hero section tile background
-.hero {
+#hero {
 	position: relative;
 	overflow: hidden;
 	
@@ -69,7 +88,39 @@
 	}
 }
 
+// Concentrations section
+#concentrations {
+	.columns {
+		height: 100%;
+	}
+	
+	ul {
+		height: 100%;
+		
+		li {
+			height: 25%;
+		}
+	}
+}
+
 // Flexbox
+.flexbox-h ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+  
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
 .flexbox-hv {
 	display: -webkit-box;
 	display: -moz-box;
@@ -118,4 +169,16 @@ figure.logo {
 	-webkit-margin-after: 0;
 	-webkit-margin-start: 0;
 	-webkit-margin-end: 0;
+}
+
+// Full width and height cover
+*[role="cover"] {
+	width: 100%;
+	height: 90%; /* fallback */
+	height: calc(100% - 5rem);
+	
+	.columns {
+		padding-left: 0;
+		padding-right: 0;
+	}
 }

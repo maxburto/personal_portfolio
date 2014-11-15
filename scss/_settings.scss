@@ -95,7 +95,7 @@ $font-family-serif: "chaparral-pro",Georgia, Cambria, "Times New Roman", Times, 
 $font-weight-normal: normal !default;
 $font-weight-bold: bold !default;
 
-// $white       : #FFFFFF;
+$white       : #FFFFFF;
 // $ghost       : #FAFAFA;
 // $snow        : #F9F9F9;
 // $vapor       : #F6F6F6;
@@ -122,9 +122,13 @@ $font-weight-bold: bold !default;
 // $success-color: #43AC6A;
 // $warning-color: #f08a24;
 // $info-color: #a0d3e8;
+$research-color: #801537;
+$standards-color: #027979;
+$intuition-color: #FCB532;
+$experimentation-color: #F27337;
 
 // We use these to control various global styles
-// $body-bg: $white;
+$body-bg: #F4F5F6;
 // $body-font-color: $jet;
 // $body-font-family: $font-family-sans-serif;
 // $body-font-weight: $font-weight-normal;
@@ -205,16 +209,16 @@ $font-weight-bold: bold !default;
 // $header-text-rendering: optimizeLegibility;
 
 // We use these to control header font sizes
-// $h1-font-size: rem-calc(44);
-// $h2-font-size: rem-calc(37);
+$h1-font-size: rem-calc(44);
+$h2-font-size: rem-calc(37);
 // $h3-font-size: rem-calc(27);
 // $h4-font-size: rem-calc(23);
 // $h5-font-size: rem-calc(18);
 // $h6-font-size: 1rem;
 
 // We use these to control header size reduction on small screens
-// $h1-font-reduction: rem-calc(10) !default;
-// $h2-font-reduction: rem-calc(10) !default;
+$h1-font-reduction: rem-calc(10) !default;
+$h2-font-reduction: rem-calc(10) !default;
 // $h3-font-reduction: rem-calc(5) !default;
 // $h4-font-reduction: rem-calc(5) !default;
 // $h5-font-reduction: 0 !default;
